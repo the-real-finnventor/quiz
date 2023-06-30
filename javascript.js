@@ -96,3 +96,10 @@ function send_post(url, user_input) {
             // Handle any errors
         });
 }
+
+
+document.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        check();
+    }
+});
